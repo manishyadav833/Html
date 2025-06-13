@@ -1,0 +1,23 @@
+.a{
+width:3cm;
+height:3cm;
+background-color:red;
+animation-name:ab;
+animation-duration:2s;
+animation-direction:reverse;
+position:relative;
+animation-iteration-count:infinite;
+}
+@keyframes ab{
+0%{left:0;top:0;}
+25%{left:500px; top:0;}
+50%{top:500px;left:500px; border-radius:50%; background-color:blue;}
+75%{top:500px;left:0px;}
+100%{top:0px;left:0px;}
+}
+
+
+
+
+
+
